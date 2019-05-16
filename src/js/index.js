@@ -9,7 +9,6 @@ import "bootstrap";
 import "../styles/index.scss";
 
 //import your own components
-import { TrafficLight } from "./component/TrafficLight.js";
+import { AutomaticLight } from "./component/automatic_light.jsx";
 
-//render your react application
-ReactDOM.render(<TrafficLight />, document.querySelector("#app"));
+ReactDOM.render(<AutomaticLight />, document.querySelector("#app"));
